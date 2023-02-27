@@ -32,24 +32,3 @@ else {
 
 
 //aggiunta contatore vincite
-let userWin = 0;
-let pcWin = 0;
-let gameNumber = 0;
-
-if (userNumber < pcNumber) {
-    pcWin++;
-    gameNumber;
-
-}
-else if (userNumber > pcNumber) {
-    userWin++;
-    gameNumber++;
-
-}
-else {
-    gameNumber++;
-}
-
-
-console.log(pcWin);
-console.log(userWin);
