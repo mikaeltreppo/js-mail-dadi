@@ -9,6 +9,9 @@ let emailList = ["giacomo@gmail.com", "luca@gmail.com", "massimo@gmail.com", "ca
 
 for (let i = 0; i < emailList.length; i++){
     if( emailUser == emailList[i]){
-        console.log("bentornato " + emailUser)
+        console.log("bentornato " + emailUser);
+    }
+    else if( emailUser !== emailList[i]){
+        console.log("iscriviti con noi!");
     }
 }
